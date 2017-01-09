@@ -42,8 +42,15 @@ nav {
     transition: 1s ease-in-out; }
 
 footer.page-footer {
-  background: none;
+  background: black;
   box-shadow: none; }
+  footer.page-footer p {
+    text-align: left; }
+  footer.page-footer li a {
+    font-size: 16px; }
+    footer.page-footer li a:hover {
+      color: white;
+      text-decoration: line-through; }
   footer.page-footer .footer-copyright {
     background: none;
     box-shadow: none; }
@@ -86,10 +93,10 @@ h3 {
   color: lightgrey;
   text-decoration: underline; }
 
+h5 {
+  font-family: 'Julius Sans One', sans-serif; }
+
 .hidden {
   display: none; }
-
-ul.right .hide-on-med-and-down li a {
-  font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
