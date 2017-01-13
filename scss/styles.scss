@@ -114,12 +114,25 @@ h3 {
   color: lightgrey;
   text-decoration: underline;
 }
+
+h4 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+}
+
 h5 {
   font-family: 'Julius Sans One', sans-serif;
 }
 
 .hidden {
   display: none;
+}
+
+#quote {
+  display: none;
+  font-style: italic;
 }
 
 img {
