@@ -113,4 +113,40 @@ img {
   display: block;
   margin: auto; }
 
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap; }
+  .image-gallery .materialboxed img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px; }
+
+.material-placeholder {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#medialink {
+  margin-top: 10px;
+  height: 10%;
+  width: 10%; }
+
+.grey-text.text-lighten-3 {
+  line-height: 28px;
+  font-family: "Antic", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 10px; }
+
+#links li {
+  margin-top: 10px; }
+  @media screen and (max-width: 400px) {
+    #links li {
+      margin-left: 10px; } }
+  #links li a:hover {
+    color: #ffab40 !important; }
+
+.btn {
+  width: 100%;
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=styles.css.map */

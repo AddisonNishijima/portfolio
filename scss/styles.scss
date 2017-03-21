@@ -139,3 +139,50 @@ img {
   display: block;
   margin: auto;
 }
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  .materialboxed img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+  }
+}
+
+.material-placeholder {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#medialink {
+  margin-top: 10px;
+  height: 10%;
+  width: 10%;
+}
+
+.grey-text.text-lighten-3 {
+  //font-size: 18px;
+  line-height: 28px;
+  font-family: "Antic", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+#links {
+  li {
+    margin-top: 10px;
+    @media screen and (max-width: 400px) {
+      margin-left: 10px;
+    }
+    a:hover {
+      color: #ffab40 !important;
+    }
+  }
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
