@@ -5,6 +5,8 @@ nav {
   @media screen and (max-width: 400px) {
     nav .brand-logo a {
       font-size: 12px; } }
+  nav ul a {
+    font-size: 1.2em; }
 
 footer.page-footer {
   background: black;
@@ -42,13 +44,17 @@ main {
   .image-gallery .materialboxed img {
     height: 200px;
     width: 200px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-bottom: 20px; }
 
 .hidden {
   display: none; }
 
 .carousel .carousel-item {
   width: 400px !important; }
+  @media only screen and (max-width: 992px) {
+    .carousel .carousel-item {
+      width: 300px !important; } }
 
 p {
   margin-top: 10px;
@@ -72,7 +78,7 @@ li a {
       text-decoration: line-through; }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   color: lightgrey;
@@ -80,16 +86,20 @@ h3 {
 
 h4 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.3em;
   color: white;
   text-align: center; }
+  @media only screen and (max-width: 600px) {
+    h4 {
+      font-size: 1.2em; } }
 
 h5 {
   font-family: 'Julius Sans One', sans-serif; }
 
 .quote {
   display: none;
-  font-style: italic; }
+  font-style: italic;
+  text-align: center; }
 
 .grey-text.text-lighten-3 {
   line-height: 28px;
@@ -133,6 +143,18 @@ img {
   margin: auto; }
 
 .material-placeholder {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.gallerypicture {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.gallerypicturebutton {
+  height: 150px;
+  width: 150px;
   margin-top: 10px;
   margin-bottom: 10px; }
 

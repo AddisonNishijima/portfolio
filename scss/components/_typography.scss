@@ -25,7 +25,7 @@ li a {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   color: lightgrey;
@@ -34,9 +34,12 @@ h3 {
 
 h4 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.3em;
   color: white;
   text-align: center;
+  @media #{$small-and-down} {
+    font-size: 1.2em;
+  }
 }
 
 h5 {
@@ -46,6 +49,7 @@ h5 {
 .quote {
   display: none;
   font-style: italic;
+  text-align: center;
 }
 
 .grey-text.text-lighten-3 {

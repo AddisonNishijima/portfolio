@@ -24,6 +24,7 @@ main {
     height: 200px;
     width: 200px;
     margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -33,4 +34,7 @@ main {
 
 .carousel .carousel-item {
   width: 400px !important;
+  @media #{$medium-and-down} {
+    width: 300px !important;
+  }
 }
