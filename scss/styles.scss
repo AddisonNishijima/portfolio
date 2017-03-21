@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+.indexMain {
+  height: 90vh;
+}
+
 main {
   flex: 1 0 auto;
   margin-top: 20px;
@@ -130,7 +134,7 @@ h5 {
   display: none;
 }
 
-#quote {
+.quote {
   display: none;
   font-style: italic;
 }
