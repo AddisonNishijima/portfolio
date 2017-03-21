@@ -1,0 +1,55 @@
+#logo {
+  display: block;
+  margin: auto;
+  margin-top: -80px;
+  margin-bottom: 10px;
+  padding: 1em;
+  height: 30%;
+  width: 30%;
+  &:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+}
+
+#smlogo {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 1em;
+  height: 40%;
+  width: 40%;
+  &:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.material-placeholder {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#medialink {
+  margin-top: 10px;
+  height: 10%;
+  width: 10%;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+a.brand-logo {
+  margin-left: 10px;
+  font-family: 'Julius Sans One', sans-serif;
+  @media screen and (max-width: 400px) {
+    font-size: 20px;
+  }
+}

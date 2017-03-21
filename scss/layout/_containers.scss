@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(-180deg, #3C3B3B 0%, #000000 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.indexMain {
+  height: 90vh;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-top: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  .materialboxed img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel .carousel-item {
+  width: 400px !important;
+}

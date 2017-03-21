@@ -1,0 +1,11 @@
+nav {
+  background: none;
+  box-shadow: none;
+  padding: 5px;
+  .brand-logo a {
+    @media screen and (max-width: 400px) {
+      font-size: 12px;
+    }
+  }
+}
+

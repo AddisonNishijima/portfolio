@@ -1,0 +1,18 @@
+footer.page-footer {
+  background: black;
+  box-shadow: none;
+  p {
+    text-align: left;
+  }
+  li a {
+    font-size: 16px;
+    &:hover {
+      color: white;
+      text-decoration: line-through;
+    }
+  }
+  .footer-copyright {
+    background: none;
+    box-shadow: none;
+  }
+}

@@ -1,18 +1,3 @@
-body {
-  background-image: linear-gradient(-180deg, #3C3B3B 0%, #000000 100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column; }
-
-.indexMain {
-  height: 90vh; }
-
-main {
-  flex: 1 0 auto;
-  margin-top: 20px; }
-
 nav {
   background: none;
   box-shadow: none;
@@ -20,29 +5,6 @@ nav {
   @media screen and (max-width: 400px) {
     nav .brand-logo a {
       font-size: 12px; } }
-
-#logo {
-  display: block;
-  margin: auto;
-  margin-top: -80px;
-  margin-bottom: 10px;
-  padding: 1em;
-  height: 30%;
-  width: 30%; }
-  #logo:hover {
-    transform: scale(1.1);
-    transition: 1s ease-in-out; }
-
-#smlogo {
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-  padding: 1em;
-  height: 40%;
-  width: 40%; }
-  #smlogo:hover {
-    transform: scale(1.1);
-    transition: 1s ease-in-out; }
 
 footer.page-footer {
   background: black;
@@ -58,12 +20,35 @@ footer.page-footer {
     background: none;
     box-shadow: none; }
 
-a.brand-logo {
-  margin-left: 10px;
-  font-family: 'Julius Sans One', sans-serif; }
-  @media screen and (max-width: 400px) {
-    a.brand-logo {
-      font-size: 20px; } }
+body {
+  background-image: linear-gradient(-180deg, #3C3B3B 0%, #000000 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.indexMain {
+  height: 90vh; }
+
+main {
+  flex: 1 0 auto;
+  margin-top: 20px; }
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap; }
+  .image-gallery .materialboxed img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px; }
+
+.hidden {
+  display: none; }
+
+.carousel .carousel-item {
+  width: 400px !important; }
 
 p {
   margin-top: 10px;
@@ -72,9 +57,6 @@ p {
   line-height: 1.75em;
   font-size: 1.1em;
   text-align: center; }
-
-.carousel .carousel-item {
-  width: 400px !important; }
 
 li a {
   font-family: 'Antic', sans-serif; }
@@ -105,34 +87,9 @@ h4 {
 h5 {
   font-family: 'Julius Sans One', sans-serif; }
 
-.hidden {
-  display: none; }
-
 .quote {
   display: none;
   font-style: italic; }
-
-img {
-  display: block;
-  margin: auto; }
-
-.image-gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap; }
-  .image-gallery .materialboxed img {
-    height: 200px;
-    width: 200px;
-    margin-top: 10px; }
-
-.material-placeholder {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-#medialink {
-  margin-top: 10px;
-  height: 10%;
-  width: 10%; }
 
 .grey-text.text-lighten-3 {
   line-height: 28px;
@@ -148,8 +105,51 @@ img {
   #links li a:hover {
     color: #ffab40 !important; }
 
+#logo {
+  display: block;
+  margin: auto;
+  margin-top: -80px;
+  margin-bottom: 10px;
+  padding: 1em;
+  height: 30%;
+  width: 30%; }
+  #logo:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out; }
+
+#smlogo {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 1em;
+  height: 40%;
+  width: 40%; }
+  #smlogo:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.material-placeholder {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#medialink {
+  margin-top: 10px;
+  height: 10%;
+  width: 10%; }
+
 .btn {
   width: 100%;
   margin-bottom: 10px; }
+
+a.brand-logo {
+  margin-left: 10px;
+  font-family: 'Julius Sans One', sans-serif; }
+  @media screen and (max-width: 400px) {
+    a.brand-logo {
+      font-size: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
