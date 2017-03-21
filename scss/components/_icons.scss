@@ -37,7 +37,7 @@ img {
 
 .gallerypicture {
   height: 200px;
-  width: 200px;
+  width: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -58,6 +58,11 @@ img {
 .btn {
   width: 100%;
   margin-bottom: 10px;
+  background-color: darkgray;
+  &:hover {
+    background-color: lightgray;
+    color: dimgray;
+  }
 }
 
 a.brand-logo {

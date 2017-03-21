@@ -113,7 +113,13 @@ h5 {
     #links li {
       margin-left: 10px; } }
   #links li a:hover {
-    color: #ffab40 !important; }
+    color: white !important; }
+
+#github {
+  color: gray; }
+  #github:hover {
+    color: white;
+    text-decoration: line-through; }
 
 #logo {
   display: block;
@@ -148,7 +154,7 @@ img {
 
 .gallerypicture {
   height: 200px;
-  width: 200px;
+  width: 250px;
   margin-top: 10px;
   margin-bottom: 10px; }
 
@@ -165,7 +171,11 @@ img {
 
 .btn {
   width: 100%;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  background-color: darkgray; }
+  .btn:hover {
+    background-color: lightgray;
+    color: dimgray; }
 
 a.brand-logo {
   margin-left: 10px;

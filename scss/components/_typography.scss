@@ -67,7 +67,15 @@ h5 {
       margin-left: 10px;
     }
     a:hover {
-      color: #ffab40 !important;
+      color: white !important;
     }
+  }
+}
+
+#github {
+ color: gray;
+  &:hover {
+    color: white;
+    text-decoration: line-through;
   }
 }
